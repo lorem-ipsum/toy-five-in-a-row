@@ -1,7 +1,10 @@
 .center {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
 .canvas-wrapper {
-  left: 200px;
+  top: 100px;
 }

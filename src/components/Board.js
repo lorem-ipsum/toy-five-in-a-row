@@ -44,6 +44,7 @@ function Board({ num, size }) {
   //   set0({ x0, y0 });
   // }, [xm, ym]);
 
+  // TODO: 判断胜负部分最终应当由后端来完成
   function calculateWinner() {
     if (num < 5) return null;
     for (let i = 0; i < num; ++i) {
@@ -107,7 +108,7 @@ function Board({ num, size }) {
   }
 
   return (
-    <div className="center">
+    <div style={{ position: "relative" }}>
       {/* <p>
         The board is {num} * {num}.
         <br />
