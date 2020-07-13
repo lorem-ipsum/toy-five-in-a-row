@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/toy-five-in-a-row/static/css/main.b453e51a.chunk.css",
-    "main.js": "/toy-five-in-a-row/static/js/main.987e1024.chunk.js",
-    "main.js.map": "/toy-five-in-a-row/static/js/main.987e1024.chunk.js.map",
+    "main.js": "/toy-five-in-a-row/static/js/main.f0218d3e.chunk.js",
+    "main.js.map": "/toy-five-in-a-row/static/js/main.f0218d3e.chunk.js.map",
     "runtime-main.js": "/toy-five-in-a-row/static/js/runtime-main.743137de.js",
     "runtime-main.js.map": "/toy-five-in-a-row/static/js/runtime-main.743137de.js.map",
     "static/js/2.1e9e2ea7.chunk.js": "/toy-five-in-a-row/static/js/2.1e9e2ea7.chunk.js",
     "static/js/2.1e9e2ea7.chunk.js.map": "/toy-five-in-a-row/static/js/2.1e9e2ea7.chunk.js.map",
     "index.html": "/toy-five-in-a-row/index.html",
-    "precache-manifest.e5fcf5d22f8a916102eb41faa28a1c9f.js": "/toy-five-in-a-row/precache-manifest.e5fcf5d22f8a916102eb41faa28a1c9f.js",
+    "precache-manifest.ec9860c5f0ee5a10724078f57d33637b.js": "/toy-five-in-a-row/precache-manifest.ec9860c5f0ee5a10724078f57d33637b.js",
     "service-worker.js": "/toy-five-in-a-row/service-worker.js",
     "static/css/main.b453e51a.chunk.css.map": "/toy-five-in-a-row/static/css/main.b453e51a.chunk.css.map",
     "static/js/2.1e9e2ea7.chunk.js.LICENSE.txt": "/toy-five-in-a-row/static/js/2.1e9e2ea7.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.743137de.js",
     "static/js/2.1e9e2ea7.chunk.js",
     "static/css/main.b453e51a.chunk.css",
-    "static/js/main.987e1024.chunk.js"
+    "static/js/main.f0218d3e.chunk.js"
   ]
 }

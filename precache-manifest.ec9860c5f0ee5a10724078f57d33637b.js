@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c5124c75926315512549b2e9e4b76f72",
+    "revision": "51aa39cdc55d7752427184f9c5348c2d",
     "url": "/toy-five-in-a-row/index.html"
   },
   {
-    "revision": "a5b5dae5da71311acac9",
+    "revision": "ba3f736ac5d6b4bbf306",
     "url": "/toy-five-in-a-row/static/css/main.b453e51a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/toy-five-in-a-row/static/js/2.1e9e2ea7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a5b5dae5da71311acac9",
-    "url": "/toy-five-in-a-row/static/js/main.987e1024.chunk.js"
+    "revision": "ba3f736ac5d6b4bbf306",
+    "url": "/toy-five-in-a-row/static/js/main.f0218d3e.chunk.js"
   },
   {
     "revision": "18277f7c635f210cf587",

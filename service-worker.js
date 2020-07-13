@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/toy-five-in-a-row/precache-manifest.e5fcf5d22f8a916102eb41faa28a1c9f.js"
+  "/toy-five-in-a-row/precache-manifest.ec9860c5f0ee5a10724078f57d33637b.js"
 );
 
 self.addEventListener('message', (event) => {
