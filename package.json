@@ -2,6 +2,7 @@
   "name": "toy-five-in-a-row",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lorem-ipsum.github.io/toy-five-in-a-row/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
