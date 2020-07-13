@@ -24,10 +24,10 @@ function Board({ num, size }) {
     }
     ctx.strokeRect(size / 2, size / 2, (num - 1) * size, (num - 1) * size);
     ctx.strokeRect(
-      size / 2 - 5,
-      size / 2 - 5,
-      (num - 1) * size + 10,
-      (num - 1) * size + 10
+      size / 2 - 10,
+      size / 2 - 10,
+      (num - 1) * size + 20,
+      (num - 1) * size + 20
     );
   }, [num, size]);
 
