@@ -1,18 +1,12 @@
 import React, { useState, useEffect, useRef } from "react";
-// import Chess from "./Chess";
 import Chesses from "./Chesses";
 import FakeChess from "./FakeChess";
-
-// import useMousePosition from "./UseMousePosition";
 
 function Board({ num, size }) {
   let [winner, setWinner] = useState(null);
   let [step, setStep] = useState(0);
   let [board, setBoard] = useState(new Array(num * num).fill(null));
-  // TEST
-  // console.log("start*****************************");
   let [{ x0, y0 }, set0] = useState({});
-  // let { xm, ym } = useMousePosition();
   const canvasRef = useRef(null);
 
   // Draw the board.
@@ -36,13 +30,6 @@ function Board({ num, size }) {
       (num - 1) * size + 10
     );
   }, [num, size]);
-
-  // useEffect(() => {
-  //   const canvas = canvasRef.current;
-  //   const x0 = canvas.getBoundingClientRect().left + window.pageXOffset;
-  //   const y0 = canvas.getBoundingClientRect().top + window.pageYOffset;
-  //   set0({ x0, y0 });
-  // }, [xm, ym]);
 
   // TODO: 判断胜负部分最终应当由后端来完成
   function calculateWinner() {
@@ -109,12 +96,6 @@ function Board({ num, size }) {
 
   return (
     <div style={{ position: "relative" }}>
-      {/* <p>
-        The board is {num} * {num}.
-        <br />
-        The coordinate of the lefttop point of CANVAS is ({x0}, {y0}) The
-        coordinate of the mouse is ({xm}, {ym})
-      </p> */}
       <h2>
         Result:{" "}
         {winner ? "The winner is " + winner : step === num * num ? "tie" : "?"}
